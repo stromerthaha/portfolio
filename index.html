@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Thaha K - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/webfavi.jpeg">
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-blue-500 p-4 text-white">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-semibold">Mohammed Thaha K</h1>
+            <p class="text-sm">Python Developer</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-800 text-white h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold mb-2">Welcome to My Portfolio</h2>
+            <p class="text-lg">Smart, Intelligent, and Frank Python Developer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p class="text-lg">A smart, intelligent, and frank Python developer willing to contribute to a progressive organization. I have a Bachelor's degree in Computer Science Engineering with a focus on various technologies and programming languages.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Technical Skills</h2>
+            <ul class="list-disc list-inside">
+                <li>Operating Systems: Windows and Linux</li>
+                <li>Editors: Visual Studio Code, Notepad++</li>
+                <li>Programming Languages: Python, Java, C</li>
+                <li>Frontend: HTML, CSS, JavaScript, React.js</li>
+                <li>Backend: SQL, MySQL, Django, Flask, PHP</li>
+                <li>Cloud Management: AWS, Google Cloud, Azure</li>
+            </ul>
+        </div>
+    </section>
+
+  <!-- Projects Section -->
+<section class="py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+
+        <!-- Project Detail -->
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold mb-2">MATCONVNET based deep learning and iOS Mobile App Design for Handwritten Numeric Recognition</h3>
+            <p class="text-lg">Implemented a project focusing on handwritten numeric recognition using MATCONVNET, a deep learning framework. The convolutional neural network (CNN) architecture was utilized for effective feature extraction and pattern recognition. Additionally, the iOS mobile app was designed with Model-Agnostic Diverse Datasets (MAD) for enhanced accuracy and versatility.</p>
+        </div>
+
+        <!-- Add more project details as needed -->
+
+    </div>
+</section>
+
+
+    <!-- Achievements Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Achievements</h2>
+            <ul class="list-disc list-inside">
+                <li>Final entry participant of AICTE-VISWAKARMA award 2022 for Innovative engineering projects.</li>
+                <li>Won second place for young innovators conducted by Puthiya Thalaimurai (Tamil TV Channel) in 10th Standard.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Contact</h2>
+            <p class="text-lg">Feel free to reach out to me:</p>
+            <p>Email: <a href="mailto:k.superthaha@gmail.com">k.superthaha@gmail.com</a></p>
+            <p>Mobile: <a href="tel:+918524860718">+91 8524860718</a></p>
+            <p>Github: <a href="https://github.com/Stromerthaha" target="_blank">github.com/Stromerthaha</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>&copy; 2024 Mohammed Thaha K. All rights reserved.</p>
+    </footer>
+
+    <!-- Smooth scrolling script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // Smooth scrolling
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            $('html, body').animate({
+                'scrollTop': $target.offset().top
+            }, 500, 'swing');
+        });
+    </script>
+
+</body>
+</html>
